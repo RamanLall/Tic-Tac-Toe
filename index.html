@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="Script.js" defer></script>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="modal player-name-modal">
+        <div class="modal-content">
+          <h1>Enter Player Names:</h1>
+          <input type="text" placeholder="X" id="player-one-name" />
+          <input type="text" placeholder="O" id="player-two-name" />
+          <button id="start">Start</button>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="logo">
+        <img src="favicon.png" alt="tic tac toe logo" />
+        <h1>Tic-Tac-Toe</h1>
+      </div>
+    </header>
+    <main>
+      <div class="game-container">
+        <div>
+          <p id="message">Welcome to the playground players!! 🔮</p>
+        </div>
+        <div class="game-box">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+        <div class="score">
+          <div id="current-player-1">
+            <span id="player1">Player 1</span>
+            <span class="player1-score">0</span>
+          </div>
+          <div id="current-player-2">
+            <span id="player2">Player 2</span>
+            <span class="player2-score">0</span>
+          </div>
+
+          <div class="restart">
+            <button id="restart-btn">Restart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
