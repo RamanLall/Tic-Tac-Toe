@@ -29,7 +29,7 @@ At any point, click the "Restart" button to reset the game and start a new round
 
 ### Technologies Used
 
-- HTML: Provides the structure of the game.
-- CSS: Styles the game for an aesthetically pleasing appearance.
-- JavaScript: Implements the game logic and interactivity.
+- `HTML`:- Provides the structure of the game.
+- `CSS`:- Styles the game for an aesthetically pleasing appearance.
+- `JavaScript`:- Implements the game logic and interactivity.
 Project Structure
